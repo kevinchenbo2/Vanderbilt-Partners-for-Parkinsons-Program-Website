@@ -1,1 +1,1 @@
-# Vanderbilt-Partners-for-Parkinson-s-Program-Website
+# Vanderbilt-Partners-for-Parkinsons-Program-Website
