@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add smooth transition for anchor links */
+a {
+  transition: color 0.2s ease-in-out;
+}
+
+/* Custom circular image class */
+.circular-image {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circular-image img,
+.circular-image > span {
+  border-radius: 50% !important;
+}
