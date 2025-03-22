@@ -23,13 +23,13 @@ function Navbar() {
                 
                 {/* Navigation Links */}
                 <div className="hidden md:flex items-center gap-8">
-                    <Link href="/" className="text-white hover:text-blue-300 transition-colors">
+                    <Link href="/" className="text-white hover:text-blue-300 transition-colors underline underline-offset-4">
                         Home
                     </Link>
-                    <Link href="#about" className="text-white hover:text-blue-300 transition-colors">
+                    <Link href="#about" className="text-white hover:text-blue-300 transition-colors underline underline-offset-4">
                         About Us
                     </Link>
-                    <Link href="#events" className="text-white hover:text-blue-300 transition-colors">
+                    <Link href="#events" className="text-white hover:text-blue-300 transition-colors underline underline-offset-4">
                         Past Events
                     </Link>
                 </div>

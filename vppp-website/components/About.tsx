@@ -7,14 +7,16 @@ const About = () => {
         <h2 className="text-4xl font-bold text-center mb-12">About Us</h2>
         <div className="max-w-3xl mx-auto text-lg text-gray-600">
           <p className="mb-6">
-            Our organization is dedicated to making a meaningful difference in the lives
-            of those we serve. Through our various programs and initiatives, we strive
-            to create positive change and build stronger communities.
+            The Partners for Parkinson’s Program fosters meaningful connections 
+            between students and individuals with Parkinson’s, aiming to reduce 
+            social isolation while providing volunteers with a deeper 
+            understanding of neurological movement disorders. 
           </p>
           <p>
-            With the support of our dedicated volunteers and partners, we continue to
-            expand our reach and impact, touching more lives every day through our
-            mission-driven work.
+          Our organization anticipates hosting several expert speakership events, 
+          volunteer training sessions, and social gatherings throughout the academic year. 
+          No expenses are expected to be incurred. 
+
           </p>
         </div>
       </div>
