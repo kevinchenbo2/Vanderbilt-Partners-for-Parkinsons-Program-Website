@@ -64,7 +64,6 @@ jobs:
         run: |
           cd vppp-website
           npm run build
-          npx next export
         env:
           GITHUB_PAGES: true
       
