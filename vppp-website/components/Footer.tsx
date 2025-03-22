@@ -9,11 +9,11 @@ const Footer = () => {
           <div>
             <h4 className="text-xl font-semibold mb-4">Contact Us</h4>
             <p className="mb-2">
-              <a href="mailto:contact@organization.org" className="hover:text-blue-400">
-                contact@organization.org
+              <a href="mailto:lucas.m.chang@vanderbilt.edu" className="hover:text-blue-400">
+                lucas.m.chang@vanderbilt.edu
               </a>
             </p>
-            <p>123 Nonprofit Street<br />City, State 12345</p>
+            <p>2301 Vanderbilt Place<br />Nashville, TN 37203</p>
           </div>
 
           {/* Quick Links */}
@@ -39,6 +39,7 @@ const Footer = () => {
           </div>
 
           {/* Social Links */}
+          {/* Commented out as requested
           <div>
             <h4 className="text-xl font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
@@ -68,6 +69,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
+          */}
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
