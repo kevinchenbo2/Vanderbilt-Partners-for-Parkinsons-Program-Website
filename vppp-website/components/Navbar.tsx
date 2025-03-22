@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link'
 
 function Navbar() {
@@ -9,7 +8,7 @@ function Navbar() {
                 <div>
                     <Link href="/">
                     <div className="circular-image w-[70px] h-[70px]">
-                        <Image
+                        <img
                             src="/ribbon.png"
                             alt="Parkinsons Ribbon Logo"
                             width={70}
