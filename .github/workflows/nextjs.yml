@@ -63,7 +63,10 @@ jobs:
       - name: Build with Next.js
         run: |
           cd vppp-website
-          npm run export
+          npm run build
+          npx next export
+        env:
+          GITHUB_PAGES: true
       
       - name: Prepare output for deployment
         run: |
