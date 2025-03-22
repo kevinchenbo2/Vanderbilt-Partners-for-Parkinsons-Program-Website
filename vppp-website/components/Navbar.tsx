@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { getAssetPath } from '@/utils/paths'
 
 function Navbar() {
     return (
@@ -9,7 +10,7 @@ function Navbar() {
                     <Link href="/">
                     <div className="circular-image w-[70px] h-[70px]">
                         <img
-                            src="/ribbon.png"
+                            src={getAssetPath('/ribbon.png')}
                             alt="Parkinsons Ribbon Logo"
                             width={70}
                             height={70}

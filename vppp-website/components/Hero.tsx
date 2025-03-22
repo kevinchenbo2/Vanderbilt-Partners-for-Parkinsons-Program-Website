@@ -1,4 +1,5 @@
 import React from 'react'
+import { getAssetPath } from '@/utils/paths'
 
 const Hero: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Hero: React.FC = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("/vandy_background.png")',
+          backgroundImage: `url("${getAssetPath('/vandy_background.png')}")`,
           filter: 'brightness(0.7)'
         }}
       />

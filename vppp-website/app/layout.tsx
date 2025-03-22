@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Change++ | Vanderbilt University",
-  description: "Digitizing the world of nonprofits with free software development services",
+  title: "Vanderbilt Partners for Parkinson's Program",
+  description: "Supporting the Parkinson's community through education, awareness, and service",
 };
 
 export default function RootLayout({
