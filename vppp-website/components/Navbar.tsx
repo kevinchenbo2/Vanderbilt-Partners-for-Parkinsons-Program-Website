@@ -1,4 +1,5 @@
 import Link from 'next/link'
+// Import using getAssetPath utility if available, otherwise use direct path
 import { getAssetPath } from '@/utils/paths'
 
 function Navbar() {
@@ -35,9 +36,14 @@ function Navbar() {
                 
                 {/* Sign Up Button */}
                 <div>
-                    <Link href="#join" className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors">
+                    <a 
+                        href="https://forms.gle/mL8wbojzLUxkDGo97" 
+                        className="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition-colors"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Sign Up
-                    </Link>
+                    </a>
                 </div>
             </nav>
         </header>

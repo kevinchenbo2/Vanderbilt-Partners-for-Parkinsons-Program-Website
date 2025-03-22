@@ -10,4 +10,4 @@ const nextConfig = {
   assetPrefix: process.env.GITHUB_PAGES ? '/Vanderbilt-Partners-for-Parkinsons-Program-Website' : '',
 };
 
-module.exports = nextConfig; 
+module.exports = nextConfig;
