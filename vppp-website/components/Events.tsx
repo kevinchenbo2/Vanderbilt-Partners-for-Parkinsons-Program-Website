@@ -10,12 +10,12 @@ const Events: React.FC = () => {
             <h2 className="text-4xl font-bold mb-6">Past Events</h2>
             <p className="text-lg text-gray-600 mb-6">
               Our events bring together community members, volunteers, and partners
-              to create meaningful impact. Through these gatherings, we've been able
-              to reach countless individuals and make a difference in their lives.
+              to create meaningful impact. Through these gatherings, we hope to continue
+              reaching countless individuals and make a difference in their lives.
             </p>
             <p className="text-lg text-gray-600">
-              Watch our latest event highlight video to see the amazing work our
-              team and volunteers have accomplished.
+              Watch our latest event where we interviewed with the Parkinson's Disease 
+              Wellness Club hosted by Lisa Cate on September 9th, 2024.
             </p>
           </div>
 
