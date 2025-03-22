@@ -29,10 +29,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
       
-      - name: Setup Node
+      - name: Set up Node
         uses: actions/setup-node@v3
         with:
           node-version: '18'
@@ -55,15 +55,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('vppp-website/package-lock.json') }}-
       
-      - name: Install dependencies
-        run: |
-          cd vppp-website
-          npm ci
+      - name: Install Dependencies
+        working-directory: ./vppp-website
+        run: npm ci --prefer-offline
       
       - name: Build with Next.js
-        run: |
-          cd vppp-website
-          npm run build
+        working-directory: ./vppp-website
+        run: npm run build
         env:
           GITHUB_PAGES: true
       
